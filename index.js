@@ -7,6 +7,7 @@ let b = function(){
 let c = 10;
 let d = 34;
  function sub(a,b){
+    if(a>b)
     return a-b 
  }
  sub(10,3)
